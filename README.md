@@ -6,6 +6,16 @@ Motion Pose MP.
 
 ## Versión
 - Versión de desarrollo 0.9.1.05112023
+
+## Cambios
+- Implementaciones:
+
+- Cambios: 
+
+- Arreglos:
+
+  
+
 ## Autores
 
 - [@Mathias Garthoff Mattei](https://github.com/fukashigi1)
