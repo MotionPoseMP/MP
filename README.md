@@ -8,8 +8,8 @@ Motion Pose MP.
 - Versión de desarrollo Alpha 1.2.4.05122023
 
 ## Cambios
-- Implementaciones: 
-  - El identificador de paginas en el Nav esta completamente pulido.
+- Correcciones: 
+  - Se corrigio el modulode Mi Cuenta (Error no permitia traer el tipo de membresia, nombre de usuario ni realizar cambios a estos).
 
 ## Autores
 
