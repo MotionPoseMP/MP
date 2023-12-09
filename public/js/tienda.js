@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".comprar").on("click", function(){
-        let datos = {membresia: 2}; // Cambiar por el tipo de compra dependiendo del usuario a lo que escoja
+        let datos = {membresia: 1}; // Cambiar por el tipo de compra dependiendo del usuario a lo que escoja
 
         $.ajax({
             url: '/tienda/comprar',

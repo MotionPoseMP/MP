@@ -200,7 +200,20 @@ function desplegarDatos(datos){
     $('#usuario').val(datos.nombre_usuario);
     $('#correo').val(datos.correo);
     //if(datos.tipo_usuario ==)
-    $('#membresia').val(datos.tipo_usuario);
+    switch(datos.id_tipo){
+        case 1:
+            $('#membresia').val("Gratis");
+            break;
+        case 2:
+            $('#membresia').val("VIP");
+            break;
+        case 3:
+            $('#membresia').val("Super VIP");
+            break;
+        case 4:
+            $('#membresia').val("Admin");
+            break;
+    }
 }
 
 function validarCorreo(email) {
