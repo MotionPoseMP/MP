@@ -56,7 +56,7 @@ controller.post = async (req, res) => {
                                             msg = "Iniciando sesión...";
                                             Exito = true;
                                             req.session.loggedin = true;
-                                            req.session.nombre_usuario = filas.nombre_usuario;
+                                            req.session.nombre_usuario = filas.nombre;
                                             req.session.correo = filas.correo;
                                             req.session.id_usuario = filas.id_usuario;
                                             req.session.contrasena = filas.contrasena;
