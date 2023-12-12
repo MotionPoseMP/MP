@@ -116,6 +116,7 @@ ul a:hover {
     overflow: hidden;
     object-fit: cover;
     border-radius: 0.7vw;
+    background-color: #282f39;
 }
 
 .imagenesDesarrolladores {
